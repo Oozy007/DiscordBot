@@ -7,6 +7,6 @@ def get_response(input, user):
 
     for word in LeagueVocab:
         if word in loweInput:
-            if user.name == "hamelsama":#my friend who dosn't have exams coming soon
+            if user.name == "hamelsama":#my friend who doesn't have exams coming soon
                 return user.mention + messageToHamelsama
             return user.mention + messageToEveryone
